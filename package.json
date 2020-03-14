@@ -6,5 +6,11 @@
   "repository": "git@github.com:bantenio/pergola-ts.git",
   "author": "Ban Tenio<bantenio@gmail.com>",
   "license": "MIT",
-  "private": null
+  "private": false,
+  "scripts": {
+    "wbuild": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
